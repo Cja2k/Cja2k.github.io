@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&amp;subset=cyrillic,cyrillic-ext,greek,latin-ext" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
 <body>
 
+<!--### This is for the Navigation Bar-->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="C.O.C.C_CS_160/index.html">C.O.C.C. Work</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigate</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<!--###-->
+
 <h1>Main Page</h1>
+
 <h2>This is the Main Page</h2>
-<h3>
-<p><a href="C.O.C.C_CS_160/index.html">C.O.C.C Computer Science 160</a></p>
-<br>
+
+<h3>Use the Navigation bar on the left to find what you may need.</h3>
+
+<p>
 
 </h3>
 </body>
