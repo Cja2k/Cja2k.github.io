@@ -1,0 +1,125 @@
+
+
+body {
+	background-image: url("Pictures/Fire.gif");
+	background-color: #18191b;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:  #97ff97;
+	font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+	color: #97ff97;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003300;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #33ccff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	color: #ff0000;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5d5d5d;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	border: 5px solid #ff6600;
+}
+
+li {
+    float: left;
+	border-right: 5px solid #ff6600;
+	border-bottom: 5px solid #ff6600;
+	border-top: 5px solid #ff6600;
+	border-left: 5px solid #ff6600;
+	text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #33ccff;
+}
+
+.active {
+    background-color: #80dd00;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: White;
+}
+
+/* visited link */
+a:visited {
+    color: White;
+}
+
+/* mouse over link */
+a:hover {
+    color: #af0000;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
