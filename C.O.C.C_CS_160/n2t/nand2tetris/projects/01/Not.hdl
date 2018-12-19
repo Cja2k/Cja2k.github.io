@@ -4,8 +4,7 @@
 // File name: projects/01/Not.hdl
 
 /**
- * Not gate:
- * out = not in
+ * Not gate: out = not in
  */
 
 CHIP Not {
