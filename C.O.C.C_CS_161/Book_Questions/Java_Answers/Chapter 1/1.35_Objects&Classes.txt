@@ -1,0 +1,1 @@
+It could be seen as both depending on how you view it. When viewing the Book as a Class, the book can be seen as the template/blueprint for the Object which would be all of the words and information. If viewed as an Object the book follows the Classes template/blueprint which would be the printers and assemblers that crerat the book.

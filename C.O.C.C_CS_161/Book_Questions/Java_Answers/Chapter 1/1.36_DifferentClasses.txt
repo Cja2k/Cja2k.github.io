@@ -1,0 +1,1 @@
+From searching this, I found that Java Objects can only really have one class, but that class could have many different types implemented so it can appear as if it did, but really it doesnt have multiple classes.

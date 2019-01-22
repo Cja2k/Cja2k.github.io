@@ -1,0 +1,1 @@
+Each new Student object creates an area where a Name and ID is assigned. When getName is called it shows the string that you entered for that student.

@@ -1,0 +1,2 @@
+private (type) "name";
+You'd add a new field at the top, it could look something like this.

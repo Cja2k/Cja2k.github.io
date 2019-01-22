@@ -1,0 +1,7 @@
+0   --->   Int
+"hello"   --->   String
+101   --->   Int
+-1   --->   Int
+true   --->   Boolean
+"33"   --->   String
+3.1415   ---> Float

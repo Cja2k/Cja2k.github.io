@@ -1,0 +1,1 @@
+Java has 8 different data types. byte, short, int, long, float, double, boolean, and char
