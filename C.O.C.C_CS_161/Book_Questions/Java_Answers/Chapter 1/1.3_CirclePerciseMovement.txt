@@ -1,0 +1,1 @@
+Clicking any of moveVertical, moveHorizontal, or the slow variants allows you to choose how far you want to move the circle, entering "-70" into either moveHorizontals will move the circle 70 pixels left.

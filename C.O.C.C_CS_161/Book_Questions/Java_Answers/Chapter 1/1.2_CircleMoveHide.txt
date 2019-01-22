@@ -1,0 +1,1 @@
+Calling moveDown 2-3 times just moves the circle move down 2-3 units. Calling makeInvisible the first time makes the circle invisible, the second call doesnt do anything special.

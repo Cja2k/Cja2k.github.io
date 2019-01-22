@@ -1,0 +1,8 @@
+/**
+ * Sunset and Walk: Makes the sun move down out of screen
+ */
+public void sunsetAndWalk()
+{
+	sun.slowMoveVertical(300);
+	person.slowMoveHorizontal(-275);
+}

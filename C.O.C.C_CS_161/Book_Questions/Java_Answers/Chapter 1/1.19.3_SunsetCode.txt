@@ -1,0 +1,7 @@
+/**
+ * Sunset: Makes the sun move down out of screen
+ */
+public void sunset()
+{
+    sun.slowMoveVertical(300);
+}
