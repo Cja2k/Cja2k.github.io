@@ -1,0 +1,15 @@
+/**
+ * PrintAuthor
+ */
+public void printAuthor()
+{
+	System.out.println(author);
+}
+
+/**
+ * PrintTitle
+ */
+public void printTitle()
+{
+	System.out.println(title);
+}

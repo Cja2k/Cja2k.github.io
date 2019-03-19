@@ -1,0 +1,1 @@
+It removed the first audio file in the list. If there is no file in the list it still attempts to remove the first item not changing much.

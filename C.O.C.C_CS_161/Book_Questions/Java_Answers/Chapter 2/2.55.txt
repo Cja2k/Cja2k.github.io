@@ -1,0 +1,7 @@
+/**
+ * Mean: Calculates the mean by dividing total by count
+ */
+public void mean()
+{
+	mean = total / count
+}

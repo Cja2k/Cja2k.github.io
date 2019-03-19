@@ -1,0 +1,1 @@
+It does compile and when inspecting it it's given the value 0. I belive this is becasue we were already assigning it as an int so there was no reason to restate the fact that the variable type is an int. But when trying to assign new values to price it doesnt accept them being they aren't handed over properly.

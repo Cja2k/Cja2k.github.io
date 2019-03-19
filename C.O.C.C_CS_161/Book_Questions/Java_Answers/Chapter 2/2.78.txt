@@ -1,0 +1,11 @@
+public String getLoginName(String name, String id)
+{
+	if ((name.length() < 4) || (id.length() < 3))
+	{
+		return name + id;
+	}
+	else
+	{
+		return name.substring(0, 4) + id.substring(0,3);
+	}
+}

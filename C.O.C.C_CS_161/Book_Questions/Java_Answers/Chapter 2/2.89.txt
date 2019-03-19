@@ -1,0 +1,14 @@
+/**
+ * PrintDetails
+ */
+public void printDetails()
+{
+	if (refNumber.length() == 0)
+	{
+		refNumber = "ZZZ";
+	}
+	System.out.println("Title: " + title +", "
+						+ "Author: " + author + ", "
+						+ "Pages: " + pages + ", "
+						+ "Reference: " + refNumber);
+}

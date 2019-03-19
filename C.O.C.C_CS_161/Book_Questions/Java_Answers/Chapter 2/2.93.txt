@@ -1,0 +1,44 @@
+
+/**
+ * Write a description of class Heater here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Heater
+{
+    // instance variables - replace the example below with your own
+    private double tempurature;
+
+    /**
+     * Constructor for Heater
+     */
+    public Heater()
+    {
+        tempurature = 15.0;
+    }
+    
+    /**
+     * Turns up the temp by 5
+     */
+    public void warmer()
+    {
+        tempurature = tempurature + 5.0;
+    }
+    
+    /**
+     * Turns down the temp by 5
+     */
+    public void cooler()
+    {
+        tempurature = tempurature - 5.0;
+    }
+    
+    /**
+     * Return the Tempurature
+     */
+    public double getTemp()
+    {
+        return tempurature;
+    }
+}

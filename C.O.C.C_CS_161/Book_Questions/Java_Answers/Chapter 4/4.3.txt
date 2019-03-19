@@ -1,0 +1,1 @@
+Every file after the one being deleted is moved up one place thus making the file in place 1 now in place 0.

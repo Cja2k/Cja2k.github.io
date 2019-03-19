@@ -1,0 +1,1 @@
+It would print the word price because you told it to print as a string instead of an int

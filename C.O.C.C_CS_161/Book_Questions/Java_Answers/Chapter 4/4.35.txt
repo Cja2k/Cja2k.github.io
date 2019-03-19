@@ -1,0 +1,6 @@
+private static int playCount;
+
+public static void IncrePlayCount()
+{
+	playCount = playCount + 1;
+}

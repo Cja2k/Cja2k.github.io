@@ -1,0 +1,4 @@
+public Pet(String petsName)
+{
+name = petsName
+}

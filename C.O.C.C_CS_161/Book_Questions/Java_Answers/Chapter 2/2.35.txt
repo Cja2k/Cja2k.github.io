@@ -1,0 +1,7 @@
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+amount = amount - price
+}

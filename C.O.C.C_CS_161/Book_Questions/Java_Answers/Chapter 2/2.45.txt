@@ -1,0 +1,9 @@
+	/**
+     * Empty: Remove all money.
+     */
+    public void empty(int total)
+    {
+        total = 0;
+    }
+
+it doesn't need any parameters it's just mutating a variable to be 0.

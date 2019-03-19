@@ -1,0 +1,1 @@
+This time it went into the if part of the statement because item was equal to null.

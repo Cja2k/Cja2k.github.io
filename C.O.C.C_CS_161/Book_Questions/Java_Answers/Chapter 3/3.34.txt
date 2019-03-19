@@ -1,0 +1,1 @@
+wall which is of type Square, window which is of type Square, roof which is of type Triangle, sun which is of type Circle, and person which is of type Person.

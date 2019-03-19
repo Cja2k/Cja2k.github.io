@@ -1,0 +1,1 @@
+It would print "# price cents." as a single whole string.

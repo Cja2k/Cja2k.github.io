@@ -1,0 +1,10 @@
+public class Person()
+{
+	string name;
+	
+	int age;
+	
+	string code;
+	
+	int credits;
+}

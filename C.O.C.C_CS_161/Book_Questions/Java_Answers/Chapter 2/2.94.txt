@@ -1,0 +1,79 @@
+
+/**
+ * Write a description of class Heater here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Heater
+{
+    // instance variables - replace the example below with your own
+    private double tempurature;
+    private double increment;
+    private double max;
+    private double min;
+    /**
+     * Constructor for Heater
+     */
+    public Heater(double maxIn, double minIn)
+    {
+        tempurature = 15.0;
+        max = maxIn;
+        min = minIn;
+    }
+    
+    /**
+     * Increment
+     */
+    public void increment(double inc)
+    {
+        increment = inc;
+    }
+    
+    /**
+     * GetMax
+     */
+    public double getMax()
+    {
+        return max;
+    }
+    
+    /**
+     * GetMin
+     */
+    public double getMin()
+    {
+        return min;
+    }
+   
+    
+    /**
+     * Turns up the temp by increment
+     */
+    public void warmer()
+    {
+        if ((tempurature + increment) >= max)
+            System.out.println("Can't go over the max temp.");
+        else
+            tempurature = tempurature + increment;
+    }
+    
+    /**
+     * Turns down the temp by increment
+     */
+    public void cooler()
+    {
+        if ((tempurature - increment) <= min)
+            System.out.println("Can't go under the min temp.");
+        else
+            tempurature = tempurature - increment;
+    }
+    
+    /**
+     * Return the Tempurature
+     */
+    public double getTemp()
+    {
+        return tempurature;
+    }
+}

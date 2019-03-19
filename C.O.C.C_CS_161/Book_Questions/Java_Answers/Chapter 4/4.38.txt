@@ -1,0 +1,14 @@
+/**
+ * Play a track in the collection.
+ * @param index The index of the track to be played.
+ */
+public void playTrack(int index)
+{
+	if(indexValid(index)) {
+		player.stop();
+		Track track = tracks.get(index);
+		player.startPlaying(track.getFilename());
+		System.out.println("Now playing: " + track.getArtist() + " - " + track.getTitle());
+		Track.IncrePlayCount();
+	}
+}

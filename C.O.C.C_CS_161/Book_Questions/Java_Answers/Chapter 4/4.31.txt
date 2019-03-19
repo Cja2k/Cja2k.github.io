@@ -1,0 +1,17 @@
+public void AddOneToTen()
+{
+	int StartingNumber2;
+	int ChangingNumber2;
+	
+	StartingNumber2 = 1;
+	ChangingNumber2 = 0;
+	while (StartingNumber2 <= 11)
+	{
+		ChangingNumber2 = ChangingNumber2 + StartingNumber2;
+		StartingNumber2 = StartingNumber2 + 1;
+		if (StartingNumber2 == 11)
+		{
+			System.out.println(ChangingNumber2);
+		}
+	}
+}

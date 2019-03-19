@@ -1,0 +1,20 @@
+/**
+ * Set the author and title fields when this object
+ * is constructed.
+ */
+public Book(String bookAuthor, String bookTitle, int bookPages, boolean isCourseText)
+{
+	author = bookAuthor;
+	title = bookTitle;
+	pages = bookPages;
+	refNumber = "";
+	courseText = isCourseText;
+}
+
+/**
+ * GetIsCourseText
+ */
+public boolean getIsCourseText()
+{
+	return courseText;
+}

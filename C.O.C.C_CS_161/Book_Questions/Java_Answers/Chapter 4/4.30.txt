@@ -1,0 +1,10 @@
+public void multiplesOfFive( )
+{
+	int StartingNumber;
+	StartingNumber = 10;
+	while (StartingNumber < 100)
+	{
+		System.out.println(StartingNumber);
+		StartingNumber = StartingNumber + 5;
+	}
+}

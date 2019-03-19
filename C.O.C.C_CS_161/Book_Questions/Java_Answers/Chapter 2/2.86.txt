@@ -1,0 +1,1 @@
+Immutable, regardless if the ibformation changes they all are still primitive data types (Strings and Ints).

@@ -1,0 +1,1 @@
+Only the objects before itself would change it's own value. So the 6th index would change to the 5th index location.

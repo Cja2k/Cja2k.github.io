@@ -1,0 +1,2 @@
+class public TicketMachine doesn't allow for the rest of the code to be read being class cant read public because public is already wiating to check class.
+public class TicketMachine is the normal way that the code can be read, once the public can read the class the class sees TicketMachine it can run the rest of the code properly.

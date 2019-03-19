@@ -1,0 +1,1 @@
+It's the same amount because you're assigning t1 to t2 so when t1 changes t2 changes.

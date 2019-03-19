@@ -1,0 +1,1 @@
+No, it would only every print strings, not int. Unless you really want the amount of a Ticket to be "price", so no.

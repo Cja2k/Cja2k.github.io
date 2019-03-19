@@ -1,0 +1,1 @@
+The only time this would make a difference is if you tried to put in 0 currency in which it would accept but it wouldn't actually change the amount in the balance.

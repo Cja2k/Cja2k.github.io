@@ -1,0 +1,3 @@
+getBalance (output) = 0
+insertMoney (input) = 700
+getBalance (output) = 700

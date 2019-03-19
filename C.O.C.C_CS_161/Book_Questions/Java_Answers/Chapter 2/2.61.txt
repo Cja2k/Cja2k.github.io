@@ -1,0 +1,8 @@
+/**
+ * Empty: Remove all money.
+ */
+public void emptyMachine()
+{
+	System.out.println("The amount being emptied is " + total + " currency.");
+	total = 0;
+}

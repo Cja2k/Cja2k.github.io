@@ -1,0 +1,1 @@
+If you implemented it like the book describes each new numberDisplay would inform the next one infront of it (if there is one) to go up one. timeTick would only still impact the smallest changing number.

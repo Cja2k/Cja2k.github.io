@@ -1,0 +1,18 @@
+???
+???
+???
+Revisit 3.37
+???
+???
+???
+
+/**
+ * Change this picture to use color display
+ */
+public void setColor()
+{
+	wall.changeColor("red");
+	window.changeColor("black");
+	roof.changeColor("green");
+	sun.changeColor("yellow");
+}

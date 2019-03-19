@@ -1,0 +1,1 @@
+It's saying that it's a static object and that static objects can't be referenced.

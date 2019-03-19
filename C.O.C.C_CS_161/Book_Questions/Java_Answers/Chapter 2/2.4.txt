@@ -1,0 +1,7 @@
+The TicketMachine can accept any amount of money put in. If printTicket is called it sets the balance to 0 and prints
+##################
+# The BlueJ Line
+# Ticket
+# 700 cents.
+##################
+.

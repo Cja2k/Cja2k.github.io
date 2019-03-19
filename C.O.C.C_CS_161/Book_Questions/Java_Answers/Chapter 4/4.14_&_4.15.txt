@@ -1,0 +1,23 @@
+I combined both of 14 & 15 in one on accident. Sorry.
+
+private int Item_List_True;
+
+private boolean Result;   
+
+/**
+ * Checks if the given location is a valid entry in the Array List.
+ */
+public boolean checkIndex(int Item_List)
+{
+	Result = false;
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	if(Item_List_True >= 0 && Item_List_True < files.size()) {
+		Result = true;
+	}
+	else
+	{
+		System.out.println("Out of current list size, current list size is " +
+							files.size());
+	}                        
+	return Result;
+}

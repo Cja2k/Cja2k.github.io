@@ -1,0 +1,1 @@
+there would need to be as many println statements as files in the arrayList, you could probally use a For statement to iterate over each one depending on the file size.

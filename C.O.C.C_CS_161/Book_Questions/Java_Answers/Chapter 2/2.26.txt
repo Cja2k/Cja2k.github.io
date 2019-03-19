@@ -1,0 +1,7 @@
+/**
+ * getTotal: Calls the total field and return it.
+ */
+public int getTotal()
+{
+	return total;
+}

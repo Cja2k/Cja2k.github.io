@@ -1,0 +1,3 @@
+private boolean alive;   --->   alive
+private Person tutor;   --->   tutor
+private Game game;   --->   game

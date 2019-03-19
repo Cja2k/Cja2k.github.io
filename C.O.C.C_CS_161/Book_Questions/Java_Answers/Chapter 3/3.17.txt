@@ -1,0 +1,1 @@
+When calling getDisplayValue it does show three digits but the sub text does say that it'll be  a two-digit string. So it doesn't work as it is described.

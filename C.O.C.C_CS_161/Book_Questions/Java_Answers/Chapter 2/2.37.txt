@@ -1,0 +1,7 @@
+/**
+ * Prompt: Print "Please insert the correct amount of money."
+ */
+public void prompt()
+{
+	System.out.println("Please insert the correct amount of money.");
+}

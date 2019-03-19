@@ -1,0 +1,1 @@
+You have to have the return at the bottom becasue return statements are seen as end of meathod pieces, so when code is written in the same block but is before it can't be read due to the return statement declaring the end of that meathod.

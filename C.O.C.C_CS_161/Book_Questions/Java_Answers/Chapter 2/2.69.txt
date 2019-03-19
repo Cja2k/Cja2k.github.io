@@ -1,0 +1,7 @@
+public Person(String myName,int myAge)
+{
+	name = myName
+	
+	age = myAge
+	
+}

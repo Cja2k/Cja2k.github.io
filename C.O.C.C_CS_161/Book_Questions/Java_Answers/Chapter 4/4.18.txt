@@ -1,0 +1,5 @@
+public void listAllFiles(){
+
+}
+
+You could make it return a string of all the files in the list, but I would use it void and just use a print function to display the string ecause it may be a really long string if there is a lot of files inside of it. If we do it my way that I described you wouldn't need to give it any parameters.

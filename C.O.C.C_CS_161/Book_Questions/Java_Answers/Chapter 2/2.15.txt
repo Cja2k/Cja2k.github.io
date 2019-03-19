@@ -1,0 +1,1 @@
+Yes, it does matter. Private it's interactions with other items. Int is the data type that the variable will be. Price is the name of the variable.

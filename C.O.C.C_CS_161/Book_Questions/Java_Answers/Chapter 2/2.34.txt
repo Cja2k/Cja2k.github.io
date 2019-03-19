@@ -1,0 +1,1 @@
+Yes it is, if the variable shoot = 2 and you add 5, shoot = 7 showing.

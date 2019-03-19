@@ -1,0 +1,1 @@
+One constructor sets up the clock with a preset time of "00:00", where as the other constructor sets up the clock display with the time you give it.

@@ -1,0 +1,1 @@
+It starts at "00:00", it starts at this time because it thinks it just became a new day so it would be 12:00 AM or it's not set up properly.

@@ -1,0 +1,1 @@
+They're different because each machine assigns the cost when you create it, so both machines are set to specific prices.

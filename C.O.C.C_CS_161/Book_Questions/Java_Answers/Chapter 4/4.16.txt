@@ -1,0 +1,43 @@
+/**
+ * List a file from the collection.
+ * @param index The index of the file to be listed.
+ */
+public void listFile(int Item_List)
+{
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	if(Item_List_True >= 0 && Item_List_True < files.size()) {
+		String filename = files.get(Item_List_True);
+		System.out.println(filename);
+	}
+	else
+	{
+		System.out.println("Out of current list size, current list size is " +
+							files.size());
+	}                        
+}
+
+/**
+ * Remove a file from the collection.
+ * @param index The index of the file to be removed.
+ */
+public void removeFile(int Item_List)
+{
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	if(Item_List_True >= 0 && Item_List_True < files.size()) {
+		files.remove(Item_List_True);
+	}
+	else
+	{
+		System.out.println("Out of current list size, current list size is " +
+							files.size());
+	}                        
+}
+
+/**
+ * Gets the item in the list that you specify. It is setup to check the number entry that you put it 1 checks the 0th entry.
+ */
+public String getItem(int Item_List)
+{
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	return files.get(Item_List_True);
+}

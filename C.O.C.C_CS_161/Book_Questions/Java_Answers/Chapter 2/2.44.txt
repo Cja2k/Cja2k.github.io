@@ -1,0 +1,15 @@
+The first machine said the price was 0 cents but the specified one did work properly.
+
+/**
+ * Create a machine that issues tickets of the given price.
+ */
+public TicketMachine(int cost)
+{
+	balance = 0;
+	total = 0;
+}
+
+public TicketMachine()
+{
+	price = 1000;
+}

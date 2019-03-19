@@ -1,0 +1,13 @@
+/**
+ * SetRefNumber
+ */
+public void setRefNumber(String ref)
+{
+	if (ref.length() > 2)
+	
+		refNumber = ref;
+	
+	else
+		System.out.println("Error, Reference Number must be larger than 2 characters" 
+							+ "\nArea unchanged, please try again.");
+}

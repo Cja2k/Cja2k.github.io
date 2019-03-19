@@ -1,0 +1,1 @@
+You'd get the remaining amount of money left in the account after subtracting the amount needed for the ticket, in my instance it's 0.

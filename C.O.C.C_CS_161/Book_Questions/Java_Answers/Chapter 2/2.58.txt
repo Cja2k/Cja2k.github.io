@@ -1,0 +1,1 @@
+When the exercise code is run, it sets balance to 0 and returns it which would be 0. The Ticket Machine code assigns balnace to the amount to refund, then sets balance to 0, then gives us back out moeny.

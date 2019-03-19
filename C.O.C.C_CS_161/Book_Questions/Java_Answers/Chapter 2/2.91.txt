@@ -1,0 +1,28 @@
+public void printDetails()
+{
+	if (refNumber.length() == 0)
+	{
+		refNumber = "Err.404";
+	}
+	System.out.println("Title: " + title +", "
+						+ "Author: " + author + ", "
+						+ "Pages: " + pages + ", "
+						+ "Reference Number: " + refNumber + ", "
+						+ "Borrowed " + borrow + " time(s)");
+}
+
+/**
+ * SetBorrow
+ */
+public void setBorrow()
+{
+	borrow = borrow + 1;
+}
+
+/**
+ * GetBorrow
+ */
+public int getBorrow()
+{
+	return borrow;
+}

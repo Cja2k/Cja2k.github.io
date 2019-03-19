@@ -1,0 +1,12 @@
+///Enter 3 to remove the 3rd object stored.\\\
+-------
+/**
+ * Removes the given number from a collection called dates.
+ */
+public void removeFile(int Item_List)
+{
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	if(Item_List_True >= 0 && Item_List_True < files.size()) {
+		files.remove(Item_List_True);
+	}
+}

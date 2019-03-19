@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+public void listMatching(String searchString)
+{
+	boolean NoMatch;
+	NoMatch = false;
+	for (String filename : files)
+	{
+		if (filename.contains(searchString))
+		{
+			// A match.
+			System.out.println(filename);
+			NoMatch = true;
+		}
+		else
+		{
+			NoMatch = false;
+		}
+	}    
+	if (NoMatch == false)
+	{
+		System.out.println("No Matches Found");
+	}
+	else if (NoMatch == true)
+	{
+		System.out.println("Matches Found");
+	}
+}

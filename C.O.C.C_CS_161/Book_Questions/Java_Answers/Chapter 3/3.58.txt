@@ -1,0 +1,1 @@
+It could but each furthering amount would increase in conditional statements or maybe just needing two but there could be an easier way to set up this code to handle smaller or larger numbers easily. timeTick would only need to be changed to handle the smallest changing number.

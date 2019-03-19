@@ -1,0 +1,1 @@
+It could through the code, say when printing the ticket you subract an amount then yse it could be. Trying to make the valuse negative through our UI is impossible on the other hand, nothing in the code allows for those values to become negative at this point in time.

@@ -1,0 +1,13 @@
+public String getLoginName(String name, String id)
+{
+	if ((name.length() < 4) || (id.length() < 3))
+	{
+		System.out.println("Name or ID is too short\nPlease make sure your inserted name is greater than 3 characters");
+	}
+	else
+	{
+		System.out.println("Perfect name and id size");
+	}
+	return name.substring(0,4) +
+		id.substring(0,3);
+}

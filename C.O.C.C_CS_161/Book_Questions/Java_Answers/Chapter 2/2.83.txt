@@ -1,0 +1,15 @@
+/**
+ * GetAuthor
+ */
+public String getAuthor()
+{
+	return author;
+}
+
+/**
+ * GetTitle
+ */
+public String getTitle()
+{
+	return title;
+}

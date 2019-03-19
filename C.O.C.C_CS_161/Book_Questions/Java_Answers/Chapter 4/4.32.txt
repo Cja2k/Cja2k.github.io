@@ -1,0 +1,23 @@
+public void AToB(int AA, int BB)
+{
+	int A;
+	int B;
+	
+	int StartingNumber2;
+	int ChangingNumber2;
+	
+	A = AA;
+	B = BB;
+	
+	StartingNumber2 = A;
+	ChangingNumber2 = 0;
+	while (StartingNumber2 <= (B + 1))
+	{
+		ChangingNumber2 = ChangingNumber2 + StartingNumber2;
+		StartingNumber2 = StartingNumber2 + 1;
+		if (StartingNumber2 == (B + 1))
+		{
+			System.out.println(ChangingNumber2);
+		}
+	}
+}

@@ -1,0 +1,1 @@
+Whatever M is do M-1 to get the top remainder, once you have this you know it's (including 0) all numbers leading up to M-1 and M-1 itself.

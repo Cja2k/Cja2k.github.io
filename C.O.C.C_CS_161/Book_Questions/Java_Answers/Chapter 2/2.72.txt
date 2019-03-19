@@ -1,0 +1,6 @@
+private int age;
+
+public int setAge(int age)
+{
+	age = setAge;
+}

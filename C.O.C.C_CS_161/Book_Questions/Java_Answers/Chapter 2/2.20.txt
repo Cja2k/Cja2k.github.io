@@ -1,0 +1,3 @@
+public Book(String bookAuthor, String bookTitle)
+bookAuthor is a String
+bookTitle is a String

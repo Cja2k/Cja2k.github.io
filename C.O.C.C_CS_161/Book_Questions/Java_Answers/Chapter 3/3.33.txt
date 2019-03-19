@@ -1,0 +1,5 @@
+p1.print(File_1, true);
+p1.print(File_REDACTED, false);
+
+p1.getStatus(2);
+p1.getStatus(4);

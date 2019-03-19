@@ -1,0 +1,1 @@
+The amount of money entered doesn't tmatter, regardless if it's over or under the amount specified.  when printTicket is called it just prints the same thing everytime and sets the balance to zero.

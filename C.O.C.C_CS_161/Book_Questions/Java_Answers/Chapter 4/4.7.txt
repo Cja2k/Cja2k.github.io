@@ -1,0 +1,8 @@
+ArrayList<Book> library =  new ArrayList<>();
+ArrayList<Book> library =  new ArrayList<Book>();
+
+ArrayList<Student> library =  new ArrayList<>();
+ArrayList<Student> cs101 =  new ArrayList<Student>();
+
+ArrayList<MusicTrack> tracks =  new ArrayList<>();
+ArrayList<MusicTrack> tracks =  new ArrayList<MusicTrack>();

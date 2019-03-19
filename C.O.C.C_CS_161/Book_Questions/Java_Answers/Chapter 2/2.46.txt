@@ -1,0 +1,1 @@
+I tried different numbers and it has "dummy protection" balance doesn't change when it's given an improper value.

@@ -1,0 +1,10 @@
+/**
+ * Increment but instead using an If Statement
+ */
+public void incrementIF()
+{
+	if (value == (limit - 1))
+		value = 0;
+	else
+		value = (value + 1);
+}

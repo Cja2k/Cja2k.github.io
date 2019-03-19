@@ -1,0 +1,6 @@
+public void getAge()
+{
+return age;
+}
+
+The void piece specifies nothing to be returned but the code is attempting to return something.

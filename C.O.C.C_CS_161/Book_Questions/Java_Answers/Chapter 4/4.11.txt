@@ -1,0 +1,10 @@
+
+private String favoriteTrack;
+
+/**
+ * Adds the object held in favoriteTrack to a collection called files.
+ */
+public void addFile()
+{
+	files.add(favoriteTrack);
+}

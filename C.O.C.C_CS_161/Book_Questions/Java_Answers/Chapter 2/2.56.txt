@@ -1,0 +1,10 @@
+/**
+ * Budget: Checks to see if you can afford the price
+ */
+public void budget()
+{
+	if (price > budget);
+		System.out.println("Too expensive")
+	else;
+		System.out.println("Just right")
+}

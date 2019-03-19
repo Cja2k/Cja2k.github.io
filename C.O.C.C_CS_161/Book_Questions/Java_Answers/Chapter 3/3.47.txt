@@ -1,0 +1,1 @@
+My prediction was corrct. When it checked if item was null it returned with something other than null, thus prompting the else statement to go into action.

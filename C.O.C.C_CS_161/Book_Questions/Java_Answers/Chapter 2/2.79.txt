@@ -1,0 +1,9 @@
+102
+catfish
+cat9
+"12cat"
+"cat39"
+"f"
+Error
+
+I didn't think doing a substring with 3,4 would only give one character. I thought it would give 2 characters.

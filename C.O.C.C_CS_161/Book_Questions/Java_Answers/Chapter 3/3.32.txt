@@ -1,0 +1,1 @@
+The only difference between the two is the updateDisplay() and the setTIme(hour, minute). they both change the starting time of the number display. The first constructor sets up the time with the preset int's for the string which defaults to 00 for both where the other constructor just sets the current time to whatever the user puts in.

@@ -1,0 +1,17 @@
+public class Rectangle
+{
+    // instance variables - replace the example below with your own
+    private Rectangle Window;
+    private int One;
+    private int Two;
+    private String OneAndTwo;
+    /**
+     * Constructor for objects of class Rectangle
+     */
+    public void Window (int OneIn, int TwoIn)
+    {
+        One = OneIn;
+        Two = TwoIn;
+        OneAndTwo = "" + One + Two;
+    }
+}

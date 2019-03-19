@@ -1,0 +1,1 @@
+It fails because the code is expecting only a four length string not anything longer or shorter.

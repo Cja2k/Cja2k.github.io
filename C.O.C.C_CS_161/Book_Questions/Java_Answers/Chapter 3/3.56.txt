@@ -1,0 +1,1 @@
+It seems like only the part that handle the time needs to change, so only the clock display not the number display part. It would only need one more number display.

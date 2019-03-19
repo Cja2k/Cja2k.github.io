@@ -1,0 +1,55 @@
+Theres several ways to do this, one being we could have the print be in a huge if statement and have it check if a boolean is set to true for a discount, another way is adding a whole new meathod which is the way I plan to do this. One thing i had to change was a lot/all of the int's to double's to handle decimals.
+
+/**
+ * Prdouble a ticket if enough money has been inserted, and
+ * reduce the current balance by the ticket price. Print
+ * an error message if more money is required.
+ */
+public void printTicket()
+{
+	double amountLeftToPay;
+	amountLeftToPay = (balance - price) *-1;
+	
+	boolean amountLeftToPayACTUAL;
+	amountLeftToPayACTUAL = false;
+	
+	double amountLeftToPayTEXT;
+	amountLeftToPayTEXT = amountLeftToPay;
+	
+	if (amountLeftToPay > price){
+		amountLeftToPay = amountLeftToPayTEXT;
+		amountLeftToPayACTUAL = true;
+	}
+	else if (amountLeftToPay == 0) {
+		amountLeftToPay = amountLeftToPayTEXT;
+		amountLeftToPayACTUAL = true;
+	}
+	else if (amountLeftToPay < 0) {
+		amountLeftToPay = amountLeftToPayTEXT;
+		amountLeftToPayACTUAL = true;
+	}
+	else {
+		amountLeftToPayACTUAL = false;
+	}
+	
+	if (amountLeftToPayACTUAL == true) {
+		// Simulate the printing of a ticket.
+		System.out.println("##################");
+		System.out.println("# The BlueJ Line");
+		System.out.println("# Ticket");
+		System.out.println("# " + price + " cents.");
+		System.out.println("##################");
+		System.out.println();
+
+		// Update the total collected with the price.
+		total = total + price;
+		// Reduce the balance by the price.
+		balance = balance - price;
+	}
+	else {
+		System.out.println("You don't have enough. \nThis ticket costs " + price
+							+ ".\n   ----------   \nYou need " + amountLeftToPayTEXT + 
+							" more currency to buy a ticket.");
+				
+	}
+}

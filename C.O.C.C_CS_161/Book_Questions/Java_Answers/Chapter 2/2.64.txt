@@ -1,0 +1,1 @@
+It's a public meathod called getCode() and the return type is a String.

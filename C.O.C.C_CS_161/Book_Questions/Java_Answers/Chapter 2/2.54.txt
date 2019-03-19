@@ -1,0 +1,7 @@
+/**
+ * Saving: Multiplies price and discount to equal saving.
+ */
+public void saving()
+{
+	saving = price * discount
+}

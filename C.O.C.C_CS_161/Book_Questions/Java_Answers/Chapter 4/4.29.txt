@@ -1,0 +1,6 @@
+boolean found = false;
+while (not found) {
+	if (the keys are in the next place) {
+		found = true;
+	}
+}

@@ -1,0 +1,1 @@
+It changes what type is assigned first. If the string is set first the then the value will be printed as a string. If the value is put first it will do any needed math operations before adding it to the string.

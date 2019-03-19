@@ -1,0 +1,1 @@
+The Constructor can't be called directly, only really called with "new". Constructors also must have the same name as the class name as well as they cant return anything.

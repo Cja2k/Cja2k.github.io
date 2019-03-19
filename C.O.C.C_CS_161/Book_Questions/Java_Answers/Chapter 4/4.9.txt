@@ -1,0 +1,12 @@
+///When entering the number, input 5 for the fifth element stored.\\\
+-------
+private int Item_List_True;
+
+/**
+ * 
+ */
+public String getItem(int Item_List)
+{
+	Item_List_True = Item_List - 1; // To make it more user friendly.
+	return items.get(Item_List_True);
+}

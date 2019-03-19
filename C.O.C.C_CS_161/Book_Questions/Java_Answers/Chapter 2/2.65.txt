@@ -1,0 +1,1 @@
+The name of the public meathod is setCredits, and the name of parameter is creditValue which is an int.

@@ -1,0 +1,5 @@
+newStudent
+name ["Henry Moore"]
+id ["738321"]
+
+getLoginName ["Henr557"]

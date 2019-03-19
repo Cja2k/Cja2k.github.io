@@ -1,0 +1,1 @@
+Removing the else just prevents it from printing the piece in the else statement. It doesn't tell you anything.

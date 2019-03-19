@@ -1,0 +1,15 @@
+/**
+ * SetRefNumber
+ */
+public void setRefNumber(String ref)
+{
+	refNumber = ref;
+}
+
+/**
+ * GetRefNumber
+ */
+public String getRefNumber()
+{
+	return refNumber;
+}

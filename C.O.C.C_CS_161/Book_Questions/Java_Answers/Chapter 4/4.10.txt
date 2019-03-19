@@ -1,0 +1,1 @@
+Well being it starts at 0 and there's 15 objects that means the 15th object would be indexed as 14.

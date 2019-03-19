@@ -1,0 +1,4 @@
+public Module(String moduleCode)
+{
+	code = moduleCode
+}

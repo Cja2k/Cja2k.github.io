@@ -1,0 +1,7 @@
+/**
+* Increase score by the given number of points.
+*/
+public void increase(int points)
+{
+	score = points + score
+}

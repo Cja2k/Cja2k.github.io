@@ -1,0 +1,1 @@
+setPrice has the piece void which means its a method.

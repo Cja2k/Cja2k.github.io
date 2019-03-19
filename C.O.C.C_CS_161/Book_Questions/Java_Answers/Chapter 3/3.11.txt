@@ -1,0 +1,1 @@
+the only difference is you can't set the value to 0.

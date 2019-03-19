@@ -1,0 +1,11 @@
+/**
+ * Create a machine that issues tickets of the given price.
+ */
+public TicketMachine(int cost)
+{
+	price = 1000;
+	balance = 0;
+	total = 0;
+}
+
+It just makes the cost stay at 1000 cents, regardless if someone puts in a price when prompted.

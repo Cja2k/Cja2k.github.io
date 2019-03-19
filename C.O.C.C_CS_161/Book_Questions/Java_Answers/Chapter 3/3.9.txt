@@ -1,0 +1,3 @@
+Error: '.class' expected
+
+I think this is because you are trying to add 'int 5' to the already specified int area. it cant handle the double int pieces.
